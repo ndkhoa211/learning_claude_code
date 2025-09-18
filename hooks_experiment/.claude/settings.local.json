@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run C:\\Users\\user\\Desktop\\learning_claude_code\\hooks_experiment\\play_sound.py"
+          }
+        ]
+      }
+    ]
+  }
+}
