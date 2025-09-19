@@ -1,3 +1,8 @@
 {
-  "outputStyle": "default"
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/user/.claude/**)"
+    ]
+  },
+  "outputStyle": "bullet-points"
 }
