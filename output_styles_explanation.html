@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Code Output Styles - ASCII Terminal Blog</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #00ff00;
+            font-family: 'Courier New', Monaco, monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .ascii-header {
+            color: #00ffff;
+            white-space: pre;
+            font-weight: bold;
+        }
+        .ascii-divider {
+            color: #ffaa00;
+            white-space: pre;
+            margin: 20px 0;
+        }
+        .ascii-box {
+            border: 2px solid #00ff00;
+            padding: 15px;
+            margin: 15px 0;
+            background-color: #1a1a1a;
+        }
+        .code-block {
+            background-color: #2d2d2d;
+            border: 1px solid #555;
+            padding: 10px;
+            margin: 10px 0;
+            overflow-x: auto;
+        }
+        h1, h2, h3 {
+            color: #00ffff;
+        }
+        .highlight {
+            color: #ffaa00;
+            font-weight: bold;
+        }
+        .bullet {
+            color: #ff6b6b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="ascii-header">
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                           CLAUDE CODE OUTPUT STYLES                         ║
+║                          ▲ Terminal Blog Interface ▲                        ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+            </div>
+        </header>
+
+        <article>
+            <section>
+                <div class="ascii-divider">
+════════════════════════════════════════════════════════════════════════════════
+                                    OVERVIEW
+════════════════════════════════════════════════════════════════════════════════
+                </div>
+
+                <div class="ascii-box">
+                    <h2>▶ What Are Output Styles?</h2>
+                    <p>Output styles are <span class="highlight">customizable response templates</span> that control how Claude Code formats and structures its responses to match your workflow preferences.</p>
+                </div>
+            </section>
+
+            <section>
+                <div class="ascii-divider">
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                             TECHNICAL DETAILS                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+                </div>
+
+                <div class="ascii-box">
+                    <h3>◆ Storage & Structure</h3>
+                    <p><span class="bullet">▶</span> <strong>Global:</strong> <code>~/.claude/output-styles/</code></p>
+                    <p><span class="bullet">▶</span> <strong>Project:</strong> <code>./.claude/output-styles/</code></p>
+                    <p><span class="bullet">▶</span> <strong>Format:</strong> Markdown files with YAML frontmatter</p>
+                    <p><span class="bullet">▶</span> <strong>Activation:</strong> Via <code>/output-style</code> command</p>
+                </div>
+
+                <div class="ascii-box">
+                    <h3>◆ Key Capabilities</h3>
+                    <div class="code-block">
+┌─ FORMATTING ─────────────────┐
+│ • Response structure         │
+│ • Verbosity control          │
+│ • Visual organization        │
+└──────────────────────────────┘
+
+┌─ COMMUNICATION ──────────────┐
+│ • Tone adjustment            │
+│ • Professional vs casual     │
+│ • Explanation depth          │
+└──────────────────────────────┘
+
+┌─ WORKFLOW ───────────────────┐
+│ • Tool usage patterns        │
+│ • Task prioritization        │
+│ • Error handling approach    │
+└──────────────────────────────┘
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="ascii-divider">
+★ ═══════════════════════════════════════════════════════════════════════════ ★
+                                STYLE EXAMPLES
+★ ═══════════════════════════════════════════════════════════════════════════ ★
+                </div>
+
+                <div class="ascii-box">
+                    <h3>◇ Built-in Styles</h3>
+                    <p><span class="bullet">●</span> <span class="highlight">default</span> - Standard Claude behavior</p>
+                    <p><span class="bullet">●</span> <span class="highlight">bullet-points</span> - Concise, action-focused</p>
+                    <p><span class="bullet">●</span> <span class="highlight">yaml-formatter</span> - Structured YAML responses</p>
+                    <p><span class="bullet">●</span> <span class="highlight">html-blog-ascii</span> - ASCII art HTML blogs</p>
+                </div>
+
+                <div class="ascii-box">
+                    <h3>◇ Usage Patterns</h3>
+                    <div class="code-block">
+╭─ DEVELOPMENT ────────────────╮
+│ Technical, code-focused      │
+│ responses with examples      │
+╰──────────────────────────────╯
+
+╭─ LEARNING ───────────────────╮
+│ Educational explanations     │
+│ with step-by-step guidance   │
+╰──────────────────────────────╯
+
+╭─ DEBUGGING ──────────────────╮
+│ Systematic problem-solving   │
+│ with diagnostic approach     │
+╰──────────────────────────────╯
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="ascii-divider">
+▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼
+                                   COMMANDS
+▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼▲▼
+                </div>
+
+                <div class="ascii-box">
+                    <h3>◈ Available Commands</h3>
+                    <div class="code-block">
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ /output-style           │ List available styles                          ┃
+┃ /output-style:name      │ Activate specific style                        ┃
+┃ /output-style:new       │ Launch creation wizard                         ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <footer>
+            <div class="ascii-divider">
+╔══════════════════════════════════════════════════════════════════════════════╗
+║ Generated with Claude Code HTML-Blog-ASCII Output Style                     ║
+║ ★ Retro Terminal Aesthetic ★ ASCII Art Integration ★ Blog Structure ★       ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
